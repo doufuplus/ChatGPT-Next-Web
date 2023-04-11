@@ -9,7 +9,7 @@ import styles from "./home.module.scss";
 
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
-import ChatGptIcon from "../icons/chatgpt.svg";
+//import ChatGptIcon from "../icons/chatgpt.svg";
 
 import BotIcon from "../icons/bot.svg";
 import AddIcon from "../icons/add.svg";
@@ -169,9 +169,9 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>@豆腐酱</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            The warm smile, if the quality.
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -206,11 +206,13 @@ function _Home() {
                 shadow
               />
             </div>
+            {/*
             <div className={styles["sidebar-action"]}>
               <a href={REPO_URL} target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
+            */}
           </div>
           <div>
             <IconButton
