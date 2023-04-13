@@ -189,8 +189,8 @@ function _Home() {
         </div>
         
         <div style={{padding: '5px', border: '1px solid #dcdcdc', borderRadius: '5px', display: 'inline-block', width: '100%', maxWidth: '280px', textAlign: 'center'}}>
-      	  <img src="wechatpay.jpg" alt="wechatpay" style={{maxWidth: '100%', height: 'auto'}} />
-    	</div>
+      	  <img src="../icons/wechatpay.jpg" alt="wechatpay" style={{maxWidth: '100%', height: 'auto'}} />
+    	  </div>
         
         <div className={styles["sidebar-tail"]}>
           <div className={styles["sidebar-actions"]}>
