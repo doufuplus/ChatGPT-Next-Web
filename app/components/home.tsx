@@ -188,9 +188,9 @@ function _Home() {
           <ChatList />
         </div>
         
-        <div style="padding:5px; border:1px solid #dcdcdc; border-radius:5px; display:inline-block; width:100%; max-width:280px; text-align:center">
-	        <img src="wechatpay.jpg" alt="微信收款码" style="max-width:100%; height:auto" />
-        </div>
+        <div style={{padding: '5px', border: '1px solid #dcdcdc', borderRadius: '5px', display: 'inline-block', width: '100%', maxWidth: '280px', textAlign: 'center'}}>
+      	  <img src="wechatpay.jpg" alt="wechatpay" style={{maxWidth: '100%', height: 'auto'}} />
+    	</div>
         
         <div className={styles["sidebar-tail"]}>
           <div className={styles["sidebar-actions"]}>
